@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Pàgian web</title>
+</head>
+<body>
+
+    <!-- Barra menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Teardown</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#album">Sobre el joc</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#creador">Creador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#Modificació">Modificació</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#requirements">Requisits</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+          <!-- Final barra menu-->
+
+         
+         
+          <!-- Alerta-->
+
+
+          <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            Benvingut/da a la nostra pàgina <a href="#" class="alert-link"></a>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <!-- Final alerta-->
+
+
+
+
+
+
+              <!-- Carussel-->
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://pbs.twimg.com/media/FkbhpeLX0AILXfe?format=jpg&name=large" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>TEARDOWN</h5>
+                      <p>Teardown és un joc de simulació i destrucció desenvolupat per Tuxedo Labs</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://gamingbolt.com/wp-content/uploads/2020/08/Teardown.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>OBJECTIUS</h5>
+                      <p>L'objectiu principal del joc és completar missions en les quals has de destruir edificis específics, ja sigui per motius de negocis o per venjança</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/1167630/ss_b27b34be4df67359cda370e9a9372ea229ef2932.1920x1080.jpg?t=1672764880" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>EXTRA</h5>
+                      <p>A més, el joc també té un mode de construcció, que et permet crear els teus propis edificis i nivells per compartir amb altres jugadors</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- Final carussel-->
+
+
+
+             <!-- Album-->
+
+            <main id="album">
+            
+              <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                  <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light" id="album">Teardown informació</h1>
+                    <p class="lead text-muted">Teardown és un joc de simulació de destrucció desenvolupat per Tuxedo Labs en el qual el jugador pren el paper d'un especialista en demolició que accepta feines il·legals per sobreviure. L'objectiu és completar les feines de demolició i robatori de manera creativa i estratègica, utilitzant eines com explosius, martells, serralles i més per destruir i saquejar edificis.</p>
+                  </div>
+                </div>
+              </section>
+            
+              <div class="album py-5 bg-light">
+                <div class="container">
+            
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://www.pcinvasion.com/wp-content/uploads/2020/10/Teardown-1.jpg?fit=1920%2C1080" style="width:420px ;height:230px;">
+            
+                        <div class="card-body">
+                          <p class="card-text">El joc està basat en física, per la qual cosa podràs destrossar edificis sencers amb un arsenal d'eines, explosius i vehicles.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://thearcader.com/wp-content/uploads/2020/10/teardown-articulos-caros-escondidos-13.jpg" style="width:420px ;height:230px;">
+            
+                        <div class="card-body">
+                          <p class="card-text">El teu objectiu a Teardown és robar objectes valuosos d'edificis, així que hauràs de planificar amb cura com arribar-hi i com treure'ls sense ser detectat.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">11 mins</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://top-mods.com/upload/000/u1/3/9/als-nypd-and-fdny-police-firefighters-vehicles-photo-big.webp" style="width:420px ;height:230px;">
+            
+                        <div class="card-body">
+                          <p class="card-text" style="height: 72px;">Després de robar els objectes, hauràs d'escapar de la policia en una persecució de alta velocitat en cotxe.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">15 mins</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://i.ytimg.com/vi/EUJuxCEkKKo/maxresdefault.jpg" style="width:420px ;height:230px;">
+            
+                        <div class="card-body">
+                          <p class="card-text" style="height: 95px;">L'editor de nivells integrat al joc et permet crear els teus propis nivells personalitzats, amb tota mena d'obstacles i trampes per superar.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">3 mins</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://teardowngame.com/assets/img/screens/s8.jpg" style="width:420px ;height:230px;">
+            
+                        <div class="card-body">
+                          <p class="card-text">El motor de física de Teardown és impressionant, i et permet experimentar amb tota mena d'interaccions boges, com llançar objectes per l'aire o crear cadenes d'explosions.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">60 mins</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrVLNFCzVSgNAzxGlmhKRhiWnKClta1s7Agg&usqp=CAU" style="width:420px ;height:230px;">
+            
+                        <div class="card-body">
+                          <p class="card-text" style="height: 95px;">Teardown compta amb un mode multijugador en què podràs competir contra altres jugadors en curses de demolició i altres desafiaments de destrucció.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">32 mins</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+
+                <!-- Final album-->
+
+
+
+
+                <!-- Hero1 album-->
+                <div class="container col-xxl-8 px-4 py-5" id="creador">
+                  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                      <img src="https://preview.redd.it/tuxedo-labs-nextbot-v0-lndrek09aww91.png?width=965&format=png&auto=webp&s=d20705563ffa28a606288764eaba49c4ccd3a9ad" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                      <h1 class="display-5 fw-bold lh-1 mb-3">Creador de Teardown</h1>
+                      <p class="lead">Teardown és un joc de simulació de destrucció desenvolupat per Tuxedo Labs, un estudi de desenvolupament de videojocs independent amb seu a Finlàndia. El joc va ser llançat al mes d'octubre del 2020 i ha rebut crítiques molt positives per la seva jugabilitat, gràfics i simulació física realista.</p>
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="https://www.tuxedolabs.com/">Tuxedo Labs</a>
+                        <a type="button" class="btn btn-outline-secondary btn-lg px-4" href="https://teardowngame.com/">Teardown</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Final hero1 album-->
+
+
+                      <!-- Modding-->
+      <section class="page-section" id="Modificació">
+        <div class="container">
+            <div >
+                <h2 class="section-heading text-uppercase text-yellow" style="padding-bottom: 30px; padding-top: 110px; font-family: Hawaii 4-0,; color: #b18742; font-size: 38px;">Modificació</h2>
+            </div>
+    <p style="margin-bottom:3rem;">
+      Teardown té una comunitat de modding activa i un ampli suport de modificacions amb editor de nivells integrat, scripting Lua i integració de Steam Workshop. Pots crear els teus propis mapes de sandbox, eines, vehicles i fins i tot nous tipus de jocs, o simplement gaudir d'un dels milers de modificacions de la comunitat existents mitjançant el carregador de mods del joc. La documentació i les millors pràctiques per modificar i crear contingut es poden trobar aquí:             
+   </p>
+    
+    
+      <div class="row text-center">
+                <div class="col-md-3">
+        <a class="nav-link" href="https://teardowngame.com/modding/index.html" target="_blank">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x "></i>
+            <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
+            <!--<i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>-->
+            <img src="https://static.vecteezy.com/system/resources/previews/006/692/271/original/document-icon-template-black-color-editable-document-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg" style="height: 100px;width:100px">
+          </span>
+          <h4 class="my-3" style="color: #b18742">Documentació i tutorials</h4>
+          <p class="" style="padding-top: 24px;">Apreneu a crear i publicar modificacions per a Teardown mitjançant la nostra pàgina d'inici de modificació dedicada. Aquí també trobareu tutorials en vídeo per a l'editor i scripting.
+          </p>
+        </a>
+      </div>
+                <div class="col-md-3 text-yellow">
+        <a class="nav-link" href="https://teardowngame.com/modding/api.html" target="_blank">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <img src="https://static.vecteezy.com/system/resources/previews/000/570/073/original/vector-desktop-computer-icon.jpg" style="height: 100px;width:100px">
+          </span>
+          <h4 class="my-3 text-yellow" style="color: #b18742">API de scripting</h4>
+          <p class="" style="padding-top: 28px;">Teardown utilitza scripts Lua i té una API ben documentada per crear noves eines, jocs, robots o fins i tot campanyes personalitzades completes.</p>
+        </a>
+       </div>
+                <div class="col-md-3">
+        <a class="nav-link" href="https://teardowngame.com/voxtool" target="_blank">
+            
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x" ></i>
+            <i class="fas fa-tools fa-stack-1x fa-inverse"></i>
+            <img src="data:image/png;base64,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" style="height: 100px;width:100px">
+          </span>
+          <h4 class="my-3 text-yellow" style="color: #b18742">Voxtool</h4>
+          <p class="" style="padding-top: 28px;">Una eina per convertir les malles en fitxers vox per utilitzar-les a Teardown.</p>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a class="nav-link" href="https://discord.gg/teardown" target="_blank">
+            
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x" ></i>
+            <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+            <img src="data:image/png;base64,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" style="height:65px;width:78px">
+          </span>
+          <h4 class="my-3 text-yellow" style="padding-top: 34px;color: #b18742">Servidor de Discord</h4>
+          <p class="" style="padding-top: 28px;">Teardown té una comunitat activa de Discord. Aquí hi ha un lloc fantàstic per parlar de modificacions, formar equip amb altres o xerrar amb els desenvolupadors.</p>
+        </a>
+      </div>
+            </div>
+          
+        </div>
+    </section>
+    <!-- Fi de Modding-->
+
+
+
+                <!-- Requirements-->
+        <section class="" id="requirements">
+          <div class="container">
+                  <h2 class="section-heading text-uppercase text-yellow" style="padding-bottom: 30px; padding-top: 110px; font-family: Hawaii 4-0,; color: #b18742; font-size: 38px;">Requisits</h2>
+      
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-center">
+            <h3 class="section-subheading text-yellow" style="font-family:sans-serif;color: #b18742">Mínim</h3>
+          </div>
+          
+          <ul class="list-group">
+            <li class="list-group-item ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+              </svg>
+              Requires a 64-bit processor and operating system
+            </li>
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+              </svg>
+              Windows 7 or later
+            </li>
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+              </svg>
+              Quad Core CPU
+            </li>
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+              </svg>
+              4 GB RAM
+            </li>
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+              </svg>
+              NVIDIA GeForce GTX 1060 or similar. 3 Gb VRAM
+            </li>
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+              </svg>
+              4 GB available space
+            </li>
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+              </svg>
+              Additional Notes: Intel integrated graphics cards not supported.
+            </li>
+          </ul>	
+           
+        </div>
+        <div class="col-md-6">
+      
+        <div class="text-center">
+          <h3 class="section-subheading text-yellow" style=" font-family:sans-serif; color: #b18742" >Recomandat</h3>
+        </div>
+        
+        
+        <ul class="list-group">
+          <li class="list-group-item ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>
+            Requires a 64-bit processor and operating system
+          </li>
+          <li class="list-group-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>
+            Windows 10 or later
+          </li>
+          <li class="list-group-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>
+            Intel Core i7 or better
+          </li>
+          <li class="list-group-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>
+            4 GB RAM
+          </li>
+          <li class="list-group-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>
+            NVIDIA GeForce GTX 1080 or similar. 8 Gb VRAM
+          </li>
+          <li class="list-group-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>
+            4 GB available space
+          </li>
+          <li class="list-group-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#178201" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>
+            Additional Notes: Intel integrated graphics cards not supported.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+          </div>
+      </section>
+      <!-- Fin Requirements-->
+
+
+
+
+
+
+                <footer class="text-muted py-5">
+                  <div class="container">
+                    <p class="float-end mb-1">
+                      <a href="#">Back to top</a>
+                    </p>
+                </footer>
+      
+
+
+            
+            <!-- Text final-->
+            <div class="container">
+                <footer class="py-5">
+                  <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                      <h5>Section</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                      </ul>
+                    </div>
+              
+                    <div class="col-6 col-md-2 mb-3">
+                      <h5>Section</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                      </ul>
+                    </div>
+              
+                    <div class="col-6 col-md-2 mb-3">
+                      <h5>Section</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                      </ul>
+                    </div>
+              
+                    <div class="col-md-5 offset-md-1 mb-3">
+                      <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                          <label for="newsletter1" class="visually-hidden">Email address</label>
+                          <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                          <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+
+
+
+
+
+                  
+              
+                  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; Roberto Ionut</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                    </ul>
+                  </div>
+                </footer>
+              </div>
+            <!-- Final text final-->
+
+
+
+</body>
+</html>
